@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { doc, getDoc, updateDoc, deleteDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
-const categoriasDisponibles = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin']
+const categoriasDisponibles = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin', 'pasta']
 
 function EditarReceta() {
   const { id } = useParams()
