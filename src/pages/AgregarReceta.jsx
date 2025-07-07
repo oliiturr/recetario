@@ -3,7 +3,7 @@ import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useNavigate } from 'react-router-dom'
 
-const categoriasDisponibles = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin']
+const categoriasDisponibles = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin', 'pasta']
 
 function AgregarReceta() {
   const [nombre, setNombre] = useState('')
