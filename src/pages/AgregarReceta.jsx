@@ -25,7 +25,7 @@ function AgregarReceta() {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    if (!nombre || !gusto || !pagina) {
+    if (!nombre || !gusto) {
       alert('Completá todos los campos obligatorios')
       return
     }
