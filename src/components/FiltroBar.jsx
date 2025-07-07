@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const gustos = ['dulce', 'salado']
-const categorias = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin']
+const categorias = ['cookies', 'masas', 'merienda', 'postre', 'torta', 'tarta', 'pan', 'muffin', 'pasta']
 
 function FiltroBar({ filtro, setFiltro }) {
   // 🔁 Toggle de gusto (uno solo)
